@@ -1,0 +1,51 @@
+# config
+cover: /img/bg_img.jpg
+logo: /img/logo.png
+top_saying:
+- title: EVERY DAY IS A NEW  <span>BEGINNING</span> MAKE IT MEANINGFUL.
+- content: 每一个不曾起舞的日子都是对生命的辜负。
+bottom_saying: Hode the vision, truse the process.
+# Content
+excerpt_link: Read More
+
+rss: /atom.xml
+
+highlightjs: vs
+
+#Works
+works:
+- works_name: AAA
+  works_url: /
+- works_name: BBB
+  works_url: /atom.xml
+
+#duoshuo name
+duoshuo: duoshuo_name
+fancybox: true
+
+# Miscellaneous
+github: https://github.com/mjczyt
+twitter: https://twitter.com/
+facebook: https://www.facebook.com/ivan.tbs.3
+google: https://google.com/
+weibo: http://weibo.com/2813973641/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
+
+#about  timeline
+timeline:
+- num: 1
+  word: 2014/06/12-Start
+- num: 2
+  word: 2014/11/29-XXX
+- num: 3
+  word: 2015/02/18-DDD
+- num: 4
+  word: More
+
+#Links
+links:
+- name: Mafengwo
+  link: http://www.mafengwo.cn/u/69738984.html
+- name: 500PX
+  link: https://500px.com/mjczyt
+- name: lofter
+  link: http://www.lofter.com/dashboard/

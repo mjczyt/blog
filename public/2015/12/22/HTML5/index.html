@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+  <title>Hexo</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Hexo">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+	
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+    
+
+    <!-- Custom stylesheet, (add custom styles here, always load last) -->
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- Google Webfonts (Monserrat 400/700, Open Sans 400/600) -->
+    <link href='//fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.useso.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.useso.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
+
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://www.mafengwo.cn/u/69738984.html" class="animsition-link">Mafengwo</a></li>
+                    
+                    <li><a href="https://500px.com/mjczyt" class="animsition-link">500PX</a></li>
+                    
+                    <li><a href="http://www.lofter.com/dashboard/" class="animsition-link">lofter</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">Hexo</a></li>
+                            <li class="nolink"><span>Always </span>Strive.</li>
+                            
+                            <li><a href="https://github.com/mjczyt" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            
+                            
+                            <li><a href="https://www.facebook.com/ivan.tbs.3" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                            
+                            
+                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
+                            
+                            
+                            <li><a href="http://weibo.com/2813973641/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2015-12-22T14:17:16.000Z" itemprop="datePublished">
+          2015-12-22
+      </time>
+    
+</span>
+                <h1></h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<h1 id="HTML5-基础"><a href="#HTML5-基础" class="headerlink" title="HTML5 基础"></a>HTML5 基础</h1><blockquote>
+<ol>
+<li>HTML5 肯定不是多了一些标签就完事了</li>
+<li>HTML5 根酷炫没什么关系，更多的职责是功能，而不是外观</li>
+</ol>
+</blockquote>
+<hr>
+<h2 id="1-概要"><a href="#1-概要" class="headerlink" title="1. 概要"></a>1. 概要</h2><h3 id="1-1-WEB技术阶段"><a href="#1-1-WEB技术阶段" class="headerlink" title="1.1. WEB技术阶段"></a>1.1. WEB技术阶段</h3><ol>
+<li>Web 1.0 内容为主，主要流行HTML和CSS</li>
+<li>Web 2.0 动态网页，流行AJAX/JavaScript/DOM</li>
+<li>HTML5 时代，WEB开发回归富客户端</li>
+</ol>
+<h3 id="1-2-什么是HTML5"><a href="#1-2-什么是HTML5" class="headerlink" title="1.2. 什么是HTML5"></a>1.2. 什么是HTML5</h3><ul>
+<li>是HTML的超集，不仅仅是HTML，更多的是JavaScript API和CSS的提升，</li>
+<li>构建 Web 应用程序整体解决方案</li>
+</ul>
+<blockquote>
+<p>API的概念就是我们编程时所依赖的东西的总称</p>
+</blockquote>
+<h3 id="1-3-什么是Web-Application"><a href="#1-3-什么是Web-Application" class="headerlink" title="1.3. 什么是Web Application"></a>1.3. 什么是Web Application</h3><ul>
+<li>HTML5 前身，由WHATWG组织提出</li>
+<li>推出的目的主要是提高Web应用程序的功能</li>
+<li>2007年提交到W3C组织，成了现在我们看到的HTML5</li>
+</ul>
+<h3 id="1-4-HTML5应用场景"><a href="#1-4-HTML5应用场景" class="headerlink" title="1.4. HTML5应用场景"></a>1.4. HTML5应用场景</h3><ul>
+<li>极具表现力的网页<ul>
+<li>案例非常多</li>
+</ul>
+</li>
+<li>网页应用程序<ul>
+<li>PC端：iCloud、百度脑图、Office 365···</li>
+<li>APP端：淘宝、京东、美团···</li>
+<li>WeChat端：淘宝、京东、美团···</li>
+</ul>
+</li>
+<li>混合式本地应用<ul>
+<li>PC端：网易云音乐、有道词典···</li>
+<li>APP端：淘宝、京东、美团···</li>
+</ul>
+</li>
+<li>简单的游戏</li>
+</ul>
+<h3 id="1-5-H5新特性概要"><a href="#1-5-H5新特性概要" class="headerlink" title="1.5. H5新特性概要"></a>1.5. H5新特性概要</h3><blockquote>
+<p>我们这里只是列出了H5中所有的新特性，大部分内容会在以后的课程中专门学习</p>
+</blockquote>
+<h4 id="1-5-1-HTML"><a href="#1-5-1-HTML" class="headerlink" title="1.5.1. HTML"></a>1.5.1. HTML</h4><ul>
+<li>标签<ul>
+<li>更语义化标签</li>
+</ul>
+</li>
+<li>智能表单<ul>
+<li>新的表单类型，如：email,url,number</li>
+<li>新增表单功能属性，如：autocomplete，autofocus</li>
+<li>虚拟键盘适配，通过表单的类型决定移动端弹出的键盘类型</li>
+</ul>
+</li>
+<li>网页多媒体，我们可以在网页中直接通过原生方式播放视频音频<ul>
+<li>音频</li>
+<li>视频</li>
+<li>字幕</li>
+</ul>
+</li>
+<li>属性，语义化属性，在移动Web bootstrap的课程中用到<ul>
+<li>链接关系描述</li>
+<li>结构数据标记</li>
+<li>ARIA</li>
+<li>自定义属性</li>
+</ul>
+</li>
+<li>Canvas，提供网页绘图的可能，后面在Canvas课程会专门去学习<ul>
+<li>2D 绘图</li>
+<li>3D (WebGL)</li>
+</ul>
+</li>
+<li>SVG，仅仅了解即可</li>
+</ul>
+<h4 id="1-5-2-JavaScript-API"><a href="#1-5-2-JavaScript-API" class="headerlink" title="1.5.2. JavaScript API"></a>1.5.2. JavaScript API</h4><ul>
+<li>核心平台提升，JS在DOM和BOM两个方向上都新增了很多api，便于开发应用程序<ul>
+<li>新的选择器</li>
+<li>Element.classList</li>
+<li>访问历史API</li>
+<li>全屏API</li>
+</ul>
+</li>
+<li>网页存储，提供网页中操作客户端本地存储的API<ul>
+<li>Application Cache</li>
+<li>localStorage</li>
+<li>sessionStorage</li>
+<li>WebSQL</li>
+<li>IndexedDB</li>
+</ul>
+</li>
+<li>设备信息访问，JS可以访问硬件的一些信息，我们在移动手机APP的课程中再看<ul>
+<li>网络状态</li>
+<li>硬件访问</li>
+<li>设备方向</li>
+<li>地理围栏</li>
+</ul>
+</li>
+<li>拖放操作<ul>
+<li>网页内拖放</li>
+<li>桌面拖入</li>
+</ul>
+</li>
+<li>文件<ul>
+<li>文件系统API</li>
+<li>FileReader</li>
+</ul>
+</li>
+<li>网络访问，后面AJAX和服务端编程的课程再去看<ul>
+<li>XMLHttpRequest</li>
+<li>fetch</li>
+<li>WebSocket</li>
+</ul>
+</li>
+<li>多线程</li>
+<li>桌面通知</li>
+</ul>
+<h4 id="1-5-3-CSS"><a href="#1-5-3-CSS" class="headerlink" title="1.5.3. CSS"></a>1.5.3. CSS</h4><ul>
+<li>后面详细讨论</li>
+</ul>
+<hr>
+<h3 id="1-6-HTML5-骨架"><a href="#1-6-HTML5-骨架" class="headerlink" title="1.6. HTML5 骨架"></a>1.6. HTML5 骨架</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- HTML5的DOCTYPE声明做了最大简化 --&gt;</span></div><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="comment">&lt;!-- lang属性根据当前网页大量使用的语言种类决定，大量使用中文则使用zh-CN，英文则使用en --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 在标准的HTML5骨架中charset是直接在meta中设置charset --&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 字符编码的设置一定是在head中的第一行 --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>页面标题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    </div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>HTML5的DOCTYPE声明做了最大简化</li>
+<li>在标准的HTML5骨架中charset是直接在meta中设置charset</li>
+<li>字符编码的设置一定是在head中的第一行，再晚就来不及了</li>
+<li>lang属性根据当前网页大量使用的语言种类决定，大量使用中文则使用zh-CN，英文则使用en</li>
+</ul>
+<h2 id="2-语义化标签"><a href="#2-语义化标签" class="headerlink" title="2. 语义化标签"></a>2. 语义化标签</h2><h3 id="2-1-什么是语义化标签"><a href="#2-1-什么是语义化标签" class="headerlink" title="2.1. 什么是语义化标签"></a>2.1. 什么是语义化标签</h3><ul>
+<li>HTML5中制定了一系列语义化标签：<ul>
+<li>section：独立的内容节块，一般包含标题和内容</li>
+<li>article：一种特殊的section，定义文档中的具体的文章内容</li>
+<li>nav：页面导航的链接组</li>
+<li>aside：标签用来装载非正文的内容，此标签中的文字权重低</li>
+<li>header：定义文档的页眉，不仅仅是文档的页头可以使用header，一个独立块的头部也应该使用header</li>
+<li>footer：定义section或document的页脚</li>
+</ul>
+</li>
+<li>我们应该根据内容的性质决定使用特定的标签</li>
+<li><p>h1一定只能出现一个，不是HTML的约定，页面中最重要的内容</p>
+</li>
+<li><p>time标签专门用于时间，</p>
+<ul>
+<li>datetime应该是一个标准时间格式，</li>
+<li>pubdate指的是当前时间为article的发布时间 </li>
+</ul>
+</li>
+<li><p>在H5中，主体结构标签默认和DIV都是相同的块级效果，</p>
+</li>
+<li>但是DIV没有语义，而以上标签有特定语义</li>
+</ul>
+<h3 id="2-2-为什么要有语义化标签"><a href="#2-2-为什么要有语义化标签" class="headerlink" title="2.2. 为什么要有语义化标签"></a>2.2. 为什么要有语义化标签</h3><ul>
+<li>能够便于开发者阅读和写出更优雅的代码，代码如诗</li>
+<li>同时让浏览器或是网络爬虫可以很好地解析，从而更好分析其中的内容</li>
+<li>使用语义化标签会具有更好地搜索引擎优化</li>
+</ul>
+<h4 id="切记"><a href="#切记" class="headerlink" title="切记"></a>切记</h4><ul>
+<li>HTML的职责是描述一块内容是什么（或其意义）</li>
+<li>而不是它长的什么样子，它的外观应该由CSS来决定。</li>
+</ul>
+<hr>
+<h2 id="3-智能表单"><a href="#3-智能表单" class="headerlink" title="3. 智能表单"></a>3. 智能表单</h2><h3 id="3-1-新的表单类型"><a href="#3-1-新的表单类型" class="headerlink" title="3.1. 新的表单类型"></a>3.1. 新的表单类型</h3><ul>
+<li>email - 限定输入内容为邮箱地址，表单提交时会校验格式</li>
+<li>url - 限定输入内容为URL，表单提交时会校验格式</li>
+<li>number - 限定输入内容为数字，表单提交时会校验格式</li>
+<li>range - 数值范围选择器</li>
+<li>Date Pickers - 日期时间选择器<ul>
+<li>样式不能修改，移动端用的比较多，因为移动端显示的是系统的时间或日期选择器</li>
+<li>date - 选取日、月、年</li>
+<li>month - 选取月、年</li>
+<li>week - 选取周和年</li>
+<li>time - 选取时间（小时和分钟）</li>
+<li>datetime - 选取时间、日、月、年，浏览器兼容性不好，效果等同于datetime-local</li>
+<li>datetime-local - 选取本地时间、日、月、年</li>
+</ul>
+</li>
+<li>search - 搜索域，语义化，表示定义搜索框</li>
+</ul>
+<h3 id="3-2-新的表单属性"><a href="#3-2-新的表单属性" class="headerlink" title="3.2. 新的表单属性"></a>3.2. 新的表单属性</h3><ul>
+<li><p>form 上使用的新属性</p>
+<ul>
+<li>autocomplete 设置整个表单是否开启自动完成 on|off</li>
+<li>novalidate 设置H5的表单校验是否工作 true 不工作  不加该属性代表校验</li>
+</ul>
+</li>
+<li><p>input 上使用的新属性</p>
+<ul>
+<li>autocomplete 单独设置每个文本框的自动完成</li>
+<li>autofocus 设置当前文本域页面加载完了过后自动得到焦点</li>
+<li>form 属性是让表单外的表单元素也可以跟随表单一起提交</li>
+<li>form overrides<ul>
+<li>formaction 在submit上重写表单的特定属性，当点击当前submit时会以当前值使用</li>
+<li>formenctype,</li>
+<li>formmethod,</li>
+<li>formnovalidate,</li>
+<li>formtarget</li>
+</ul>
+</li>
+<li>list 作用就是指定当前文本框的自动完成列表的数据 datalist 在界面上是看不见的，只是用于定义数据列表的</li>
+<li>min / max / step<ul>
+<li>min max 限制值的范围，但是不会再输入时限制，提交时校验，</li>
+<li>step设置的是每次加减的增量</li>
+<li>主要使用在number range datepicker上</li>
+</ul>
+</li>
+<li>multiple<ul>
+<li>文本域的多选</li>
+</ul>
+</li>
+<li>pattern<ul>
+<li>设置文本框的匹配格式（正则）</li>
+</ul>
+</li>
+<li>placeholder<ul>
+<li>文本框占位符</li>
+</ul>
+</li>
+<li>required<ul>
+<li>限制当前input为必须的</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-3-虚拟键盘适配"><a href="#3-3-虚拟键盘适配" class="headerlink" title="3.3. 虚拟键盘适配"></a>3.3. 虚拟键盘适配</h3><ul>
+<li>在移动端中，我们可以通过不同的表单类型控制弹出的键盘类型</li>
+</ul>
+<h3 id="3-4-关于什么时候使用H5的新特性，能不能使用新特性的问题"><a href="#3-4-关于什么时候使用H5的新特性，能不能使用新特性的问题" class="headerlink" title="3.4. 关于什么时候使用H5的新特性，能不能使用新特性的问题"></a>3.4. 关于什么时候使用H5的新特性，能不能使用新特性的问题</h3><ul>
+<li>无伤大雅的地方直接用<ul>
+<li>比如一个文本框，加上placeholder就具备占位文本提示功能，浏览器不支持也不会报错，那就可以直接使用</li>
+<li>再比如<code>&lt;input type=&quot;email&quot;&gt;</code>，如果浏览器不支持，默认会显示文本框，那也可以直接用。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="4-网页多媒体"><a href="#4-网页多媒体" class="headerlink" title="4. 网页多媒体"></a>4. 网页多媒体</h2><h3 id="4-1-音频"><a href="#4-1-音频" class="headerlink" title="4.1. 音频"></a>4.1. 音频</h3><ul>
+<li>定义音频播放组件</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">src</span>=<span class="string">"要播放的音频文件"</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="4-2-视频"><a href="#4-2-视频" class="headerlink" title="4.2. 视频"></a>4.2. 视频</h3><ul>
+<li>定义播放视频组件</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">"要播放的视频文件"</span>&gt;</span><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="4-3-旧版本浏览器提示"><a href="#4-3-旧版本浏览器提示" class="headerlink" title="4.3. 旧版本浏览器提示"></a>4.3. 旧版本浏览器提示</h3><ul>
+<li>如果HTML中遇到不能识别的标签，就会将该标签当做DIV(块级元素) </li>
+<li>那么video中的innerHTML也就会直接显示在界面上</li>
+<li>利用这个特点我们可以实现不支持video标签的浏览器提示</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">"demo.mp4"</span>&gt;</span></div><div class="line">  <span class="comment">&lt;!-- 如果浏览器不识别video标签，以下内容可以直接显示在浏览器上 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>抱歉，您的浏览器不支持视频播放！<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="4-4-格式兼容"><a href="#4-4-格式兼容" class="headerlink" title="4.4. 格式兼容"></a>4.4. 格式兼容</h3><ul>
+<li>每个浏览器的音视频格式支持不同（版权问题）</li>
+<li>需要兼容更多的浏览器，可以通过定义多个<code>&lt;source&gt;</code>的方式实现</li>
+<li>html解析过程中会找其中第一个能认识的格式播放，一旦找到认识的视频格式，就不会再往后找了</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">controls</span> <span class="attr">width</span>=<span class="string">"500"</span>&gt;</span></div><div class="line">  <span class="comment">&lt;!-- 分析第一个source格式是否支持，如果支持则加载该文件，不支持继续往下解析 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"chrome.mp4"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"chrome.ogv"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"chrome.webm"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>抱歉，您的浏览器不支持视频播放！<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>因此不管是audio还是video都不要直接设置标签的src</li>
+</ul>
+<h3 id="4-5-多媒体标签属性"><a href="#4-5-多媒体标签属性" class="headerlink" title="4.5. 多媒体标签属性"></a>4.5. 多媒体标签属性</h3><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>controls</td>
+<td>决定是否显示控制菜单</td>
+</tr>
+<tr>
+<td>autoplay</td>
+<td>自动播放</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>循环播放</td>
+</tr>
+<tr>
+<td>height/width</td>
+<td>定义播放器的宽高，只会在视频标签中生效</td>
+</tr>
+<tr>
+<td>preload</td>
+<td>预加载 是否在页面加载完成并且没有开始播放时就开始加载文件，如果有自动播放属性则该属性无意义</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-6-自定义播放器外观"><a href="#4-6-自定义播放器外观" class="headerlink" title="4.6. 自定义播放器外观"></a>4.6. 自定义播放器外观</h3><ol>
+<li>隐藏原生的控制菜单，也就是删除标签中的controls属性</li>
+<li>自己设计一套界面控制元素，比如播放按钮，音量控制开关之类</li>
+<li>为每个不同的控制元素注册对应的事件</li>
+<li>在事件中通过视频元素的API实现自定义播放器的效果</li>
+<li>具体的多媒体元素API表：</li>
+</ol>
+<h4 id="4-6-1-方法"><a href="#4-6-1-方法" class="headerlink" title="4.6.1. 方法"></a>4.6.1. 方法</h4><table>
+<thead>
+<tr>
+<th>方法</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>addTextTrack()</td>
+<td>向音频/视频添加新的文本轨道</td>
+</tr>
+<tr>
+<td>canPlayType()</td>
+<td>检测浏览器是否能播放指定的音频/视频类型</td>
+</tr>
+<tr>
+<td>load()</td>
+<td>重新加载音频/视频元素</td>
+</tr>
+<tr>
+<td>play()</td>
+<td>开始播放音频/视频</td>
+</tr>
+<tr>
+<td>pause()</td>
+<td>暂停当前播放的音频/视频</td>
+</tr>
+</tbody>
+</table>
+<h4 id="4-6-2-属性"><a href="#4-6-2-属性" class="headerlink" title="4.6.2. 属性"></a>4.6.2. 属性</h4><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>audioTracks</td>
+<td>返回表示可用音轨的 AudioTrackList 对象                 </td>
+</tr>
+<tr>
+<td>autoplay</td>
+<td>设置或返回是否在加载完成后随即播放音频/视频</td>
+</tr>
+<tr>
+<td>buffered</td>
+<td>返回表示音频/视频已缓冲部分的 TimeRanges 对象 </td>
+</tr>
+<tr>
+<td>controller</td>
+<td>返回表示音频/视频当前媒体控制器的 MediaController 对象</td>
+</tr>
+<tr>
+<td>controls</td>
+<td>设置或返回音频/视频是否显示控件（比如播放/暂停等）</td>
+</tr>
+<tr>
+<td>crossOrigin</td>
+<td>设置或返回音频/视频的 CORS 设置 </td>
+</tr>
+<tr>
+<td>currentSrc</td>
+<td>返回当前音频/视频的 URL</td>
+</tr>
+<tr>
+<td>currentTime</td>
+<td>设置或返回音频/视频中的当前播放位置（以秒计）</td>
+</tr>
+<tr>
+<td>defaultMuted</td>
+<td>设置或返回音频/视频默认是否静音</td>
+</tr>
+<tr>
+<td>defaultPlaybackRate</td>
+<td>设置或返回音频/视频的默认播放速度</td>
+</tr>
+<tr>
+<td>duration</td>
+<td>返回当前音频/视频的长度（以秒计）</td>
+</tr>
+<tr>
+<td>ended</td>
+<td>返回音频/视频的播放是否已结束</td>
+</tr>
+<tr>
+<td>error</td>
+<td>返回表示音频/视频错误状态的 MediaError 对象</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>设置或返回音频/视频是否应在结束时重新播放</td>
+</tr>
+<tr>
+<td>mediaGroup</td>
+<td>设置或返回音频/视频所属的组合（用于连接多个音频/视频元素）</td>
+</tr>
+<tr>
+<td>muted</td>
+<td>设置或返回音频/视频是否静音</td>
+</tr>
+<tr>
+<td>networkState</td>
+<td>返回音频/视频的当前网络状态</td>
+</tr>
+<tr>
+<td>paused</td>
+<td>设置或返回音频/视频是否暂停</td>
+</tr>
+<tr>
+<td>playbackRate</td>
+<td>设置或返回音频/视频播放的速度</td>
+</tr>
+<tr>
+<td>played</td>
+<td>返回表示音频/视频已播放部分的 TimeRanges 对象</td>
+</tr>
+<tr>
+<td>preload</td>
+<td>设置或返回音频/视频是否应该在页面加载后进行加载</td>
+</tr>
+<tr>
+<td>readyState</td>
+<td>返回音频/视频当前的就绪状态</td>
+</tr>
+<tr>
+<td>seekable</td>
+<td>返回表示音频/视频可寻址部分的 TimeRanges 对象</td>
+</tr>
+<tr>
+<td>seeking</td>
+<td>返回用户是否正在音频/视频中进行查找</td>
+</tr>
+<tr>
+<td>src</td>
+<td>设置或返回音频/视频元素的当前来源</td>
+</tr>
+<tr>
+<td>startDate</td>
+<td>返回表示当前时间偏移的 Date 对象</td>
+</tr>
+<tr>
+<td>textTracks</td>
+<td>返回表示可用文本轨道的 TextTrackList 对象</td>
+</tr>
+<tr>
+<td>videoTracks</td>
+<td>返回表示可用视频轨道的 VideoTrackList 对象</td>
+</tr>
+<tr>
+<td>volume</td>
+<td>设置或返回音频/视频的音量</td>
+</tr>
+</tbody>
+</table>
+<h4 id="4-6-3-事件"><a href="#4-6-3-事件" class="headerlink" title="4.6.3. 事件"></a>4.6.3. 事件</h4><table>
+<thead>
+<tr>
+<th>事件</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>abort</td>
+<td>当音频/视频的加载已放弃时</td>
+</tr>
+<tr>
+<td>canplay</td>
+<td>当浏览器可以播放音频/视频时</td>
+</tr>
+<tr>
+<td>canplaythrough</td>
+<td>当浏览器可在不因缓冲而停顿的情况下进行播放时</td>
+</tr>
+<tr>
+<td>durationchange</td>
+<td>当音频/视频的时长已更改时</td>
+</tr>
+<tr>
+<td>emptied</td>
+<td>当目前的播放列表为空时</td>
+</tr>
+<tr>
+<td>ended</td>
+<td>当目前的播放列表已结束时</td>
+</tr>
+<tr>
+<td>error</td>
+<td>当在音频/视频加载期间发生错误时</td>
+</tr>
+<tr>
+<td>loadeddata</td>
+<td>当浏览器已加载音频/视频的当前帧时</td>
+</tr>
+<tr>
+<td>loadedmetadata</td>
+<td>当浏览器已加载音频/视频的元数据时</td>
+</tr>
+<tr>
+<td>loadstart</td>
+<td>当浏览器开始查找音频/视频时</td>
+</tr>
+<tr>
+<td>pause</td>
+<td>当音频/视频已暂停时</td>
+</tr>
+<tr>
+<td>play</td>
+<td>当音频/视频已开始或不再暂停时</td>
+</tr>
+<tr>
+<td>playing</td>
+<td>当音频/视频在已因缓冲而暂停或停止后已就绪时</td>
+</tr>
+<tr>
+<td>progress</td>
+<td>当浏览器正在下载音频/视频时</td>
+</tr>
+<tr>
+<td>ratechange</td>
+<td>当音频/视频的播放速度已更改时</td>
+</tr>
+<tr>
+<td>seeked</td>
+<td>当用户已移动/跳跃到音频/视频中的新位置时</td>
+</tr>
+<tr>
+<td>seeking</td>
+<td>当用户开始移动/跳跃到音频/视频中的新位置时</td>
+</tr>
+<tr>
+<td>stalled</td>
+<td>当浏览器尝试获取媒体数据，但数据不可用时</td>
+</tr>
+<tr>
+<td>suspend</td>
+<td>当浏览器刻意不获取媒体数据时</td>
+</tr>
+<tr>
+<td>timeupdate</td>
+<td>当目前的播放位置已更改时</td>
+</tr>
+<tr>
+<td>volumechange</td>
+<td>当音量已更改时</td>
+</tr>
+<tr>
+<td>waiting</td>
+<td>当视频由于需要缓冲下一帧而停止</td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 获取界面上的video元素，所有的操作必须通过它实现</span></div><div class="line"><span class="keyword">var</span> video = <span class="built_in">document</span>.getElementById(<span class="string">'video'</span>);</div><div class="line"><span class="keyword">var</span> btn_play = <span class="built_in">document</span>.getElementById(<span class="string">'btn_play'</span>);</div><div class="line"><span class="comment">// 注册点击事件</span></div><div class="line"><span class="comment">// addEventListener 用于注册事件， 将事件属性的on去掉 作为第一个参数传入</span></div><div class="line">btn_play.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  video.play();</div><div class="line">  btn_play.disabled = <span class="literal">true</span>;</div><div class="line">  btn_pause.disabled = <span class="literal">false</span>;</div><div class="line">&#125;);</div><div class="line"><span class="keyword">var</span> btn_pause = <span class="built_in">document</span>.getElementById(<span class="string">'btn_pause'</span>);</div><div class="line">btn_pause.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  video.pause();</div><div class="line">  btn_play.disabled = <span class="literal">false</span>;</div><div class="line">  btn_pause.disabled = <span class="literal">true</span>;</div><div class="line">&#125;);</div><div class="line"><span class="keyword">var</span> btn_muted = <span class="built_in">document</span>.getElementById(<span class="string">'btn_muted'</span>);</div><div class="line">btn_muted.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// 交互变化true或false</span></div><div class="line">  video.muted = !video.muted;</div><div class="line">  btn_muted.innerHTML = video.muted ? <span class="string">"取消静音"</span> : <span class="string">"静音"</span>;</div><div class="line">&#125;);</div><div class="line"><span class="keyword">var</span> volume = <span class="built_in">document</span>.getElementById(<span class="string">'volume'</span>);</div><div class="line">volume.addEventListener(<span class="string">'change'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">  <span class="comment">// 拿一下当前volume的值</span></div><div class="line">  video.volume = volume.value;</div><div class="line">&#125;);</div><div class="line"><span class="keyword">var</span> btn_speed_up = <span class="built_in">document</span>.getElementById(<span class="string">'btn_speed_up'</span>);</div><div class="line">btn_speed_up.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">  <span class="comment">// 加速</span></div><div class="line">  video.playbackRate += <span class="number">0.1</span>;</div><div class="line">&#125;);</div><div class="line"><span class="keyword">var</span> btn_speed_down = <span class="built_in">document</span>.getElementById(<span class="string">'btn_speed_down'</span>);</div><div class="line">btn_speed_down.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">  <span class="comment">// 减速</span></div><div class="line">  video.playbackRate -= <span class="number">0.1</span>;</div><div class="line">&#125;);</div><div class="line"><span class="keyword">var</span> btn_forward = <span class="built_in">document</span>.getElementById(<span class="string">'btn_forward'</span>);</div><div class="line">btn_forward.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">  <span class="comment">// 前进5秒</span></div><div class="line">  video.currentTime += <span class="number">5</span>;</div><div class="line">&#125;);</div><div class="line"><span class="keyword">var</span> btn_back = <span class="built_in">document</span>.getElementById(<span class="string">'btn_back'</span>);</div><div class="line">btn_back.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">  <span class="comment">// 后退5秒</span></div><div class="line">  video.currentTime -= <span class="number">5</span>;</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// 注册视频播放状态变化事件</span></div><div class="line">video.addEventListener(<span class="string">'timeupdate'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// console.log(1111);</span></div><div class="line">  progress.value = (video.currentTime / video.duration) * <span class="number">100</span>;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h3 id="4-7-全屏-API"><a href="#4-7-全屏-API" class="headerlink" title="4.7. 全屏 API"></a>4.7. 全屏 API</h3><ul>
+<li>HTML5中提供了可以通过JS实现网页全屏的效果</li>
+<li>具体的方式就是通过特定元素的<code>requestFullScreen</code>方法实现</li>
+<li>由于在不同浏览器中该方法需要加上特定前缀</li>
+<li>退出全屏通过<code>exitFullScreen</code>方法</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 全屏</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">fullScreen</span>(<span class="params">element</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span> (element.requestFullScreen) &#123;</div><div class="line">    element.requestFullScreen();</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (element.webkitRequestFullScreen) &#123;</div><div class="line">    element.webkitRequestFullScreen()</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (element.mozRequestFullScreen) &#123;</div><div class="line">    element.mozRequestFullScreen()</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (element.oRequestFullScreen) &#123;</div><div class="line">    element.oRequestFullScreen()</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (element.msRequestFullScreen) &#123;</div><div class="line">    element.msRequestFullScreen()</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> btnFullScreen = <span class="built_in">document</span>.getElementById(<span class="string">'btn_fullscreen'</span>);</div><div class="line">btnFullScreen.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  fullScreen(video);</div><div class="line">  <span class="comment">// fullScreen(document.body);</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>解决问题的思路比如何实现一个需求更重要，因为你不可能每次都遇到相同的需求</p>
+</blockquote>
+<h3 id="4-8-SVG-了解"><a href="#4-8-SVG-了解" class="headerlink" title="4.8. SVG 了解*"></a>4.8. SVG 了解*</h3><ol>
+<li>iframe的作用就是在网页中挖个坑，在这个坑里再展示一个页面</li>
+<li>svg本身也是文档 所以可以使用iframe的方式载入</li>
+</ol>
+<hr>
+<h2 id="5-JS-基础-API"><a href="#5-JS-基础-API" class="headerlink" title="5. JS 基础 API"></a>5. JS 基础 API</h2><h3 id="5-1-新选择器"><a href="#5-1-新选择器" class="headerlink" title="5.1. 新选择器"></a>5.1. 新选择器</h3><ul>
+<li>JavaScript在HTML5中多了一套原生选择器API</li>
+<li>其功能类似jQuery选择器</li>
+<li>写法上类似原本的document.getElementById(‘xxx’)</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> element1 = <span class="built_in">document</span>.getElementById(<span class="string">'section1'</span>); √ 已经get</div><div class="line"><span class="keyword">var</span> elements2 = <span class="built_in">document</span>.getElementsByTagName(<span class="string">'div'</span>); √ 已经get</div><div class="line"><span class="keyword">var</span> elements3 = <span class="built_in">document</span>.getElementsByClassName(<span class="string">'section'</span>);</div></pre></td></tr></table></figure>
+<ul>
+<li>除了这种简单的类名选择器，H5中新增了很多更高级的API：</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">document</span>.querySelectorAll(<span class="string">'ul'</span>);</div><div class="line"><span class="built_in">document</span>.querySelectorAll(<span class="string">'.container'</span>);</div><div class="line"><span class="built_in">document</span>.querySelector(<span class="string">'div#container &gt; .inner'</span>);</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>API</th>
+<th>描述</th>
+<th>返回结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>querySelector</td>
+<td>获取第一个满足选择器条件的元素</td>
+<td>一个DOM对象</td>
+</tr>
+<tr>
+<td>querySelectorAll</td>
+<td>获取所有满足选择器条件的元素</td>
+<td>包含多个DOM对象的数组</td>
+</tr>
+<tr>
+<td>getElementsByClassName</td>
+<td>获取所有使用指定类名的元素</td>
+<td>包含多个DOM对象的数组</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>小提示：h5大部分时候就是将我们经常需要的操作原生支持一下，让我们使用起来更方便，不用再借助第三方的框架</p>
+</blockquote>
+<h3 id="5-2-Element-classList"><a href="#5-2-Element-classList" class="headerlink" title="5.2. Element.classList"></a>5.2. Element.classList</h3><ul>
+<li>H5中DOM对象多了一个classList属性</li>
+<li>该属性其实就是是一个数组</li>
+<li>这个数组中的内容就是当前DOM元素的每一个类</li>
+<li>具体的操作如下：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>API</th>
+<th>描述</th>
+<th>对比jQuery</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>element.classList.add()</td>
+<td>给当前元素添加指定类名</td>
+<td>$element.addClass()</td>
+</tr>
+<tr>
+<td>element.classList.remove()</td>
+<td>在当前元素中删除指定类名</td>
+<td>$element.removeClass()</td>
+</tr>
+<tr>
+<td>element.classList.contains()</td>
+<td>判断当前元素中是否存在指定类名</td>
+<td>$element.hasClass()</td>
+</tr>
+<tr>
+<td>element.classList.toggleClass()</td>
+<td>在当前元素上切换指定类名的存在</td>
+<td>$element.toggleClass()</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-3-自定义属性-DATA"><a href="#5-3-自定义属性-DATA" class="headerlink" title="5.3. 自定义属性 DATA-* !"></a>5.3. 自定义属性 DATA-* !</h3><ul>
+<li>在HTML5中，如果想要给元素添加一些自定义属性</li>
+<li>可以DOM对象添加一些data-xxx的属性</li>
+<li>HTML5中<strong>data-</strong>是自定义属性的前缀</li>
+<li>一般用来记录与当前DOM强相关的数据</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">"users"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">data-id</span>=<span class="string">"1"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">data-gender</span>=<span class="string">"true"</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>如果需要用JS的方式操作自定义属性，可以通过getAttribute()/setAttribute()方式</li>
+<li>当然HTML5在JavaScript中提供了一个新的 API：<strong>dataset</strong>， </li>
+<li>用于操作元素的自定义属性</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> liElement = <span class="built_in">document</span>.querySelector(<span class="string">'#users &gt; li'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 添加一个自定义属性</span></div><div class="line">liElement.dataset[<span class="string">'name'</span>] = <span class="string">'张三'</span>;</div><div class="line"></div><div class="line"><span class="comment">// 获取liElement中所有的自定义属性</span></div><div class="line"><span class="built_in">console</span>.log(liElement.dataset);</div><div class="line"><span class="comment">// output: &#123;id: 1, age: 18, gender: true, name: '张三'&#125;</span></div></pre></td></tr></table></figure>
+<hr>
+<h2 id="6-离线-amp-存储"><a href="#6-离线-amp-存储" class="headerlink" title="6. 离线 &amp; 存储"></a>6. 离线 &amp; 存储</h2><h3 id="6-1-Application-Cache"><a href="#6-1-Application-Cache" class="headerlink" title="6.1. Application Cache"></a>6.1. Application Cache</h3><p>Application Cache 就是让网页可以离线访问的技术</p>
+<p>使用方式：</p>
+<ol>
+<li><p>创建一个缓存清单文件（比如：cache.manifest）</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">CACHE MANIFEST</div><div class="line"># version 1.0.7</div><div class="line"></div><div class="line">CACHE:</div><div class="line">  css/style.css</div><div class="line">  js/script.js</div><div class="line">  img/logo.png</div><div class="line">  index.html</div><div class="line"></div><div class="line">NETWORK:</div><div class="line">  *</div></pre></td></tr></table></figure>
+</li>
+<li><p>回到HTML中，给HTML标签添加manifest属性，指向刚刚创建的缓存清单文件</p>
+ <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">manifest</span>=<span class="string">"cache.manifest"</span>&gt;</span></div><div class="line">...</div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>JS中可以捕获到Application Cache的更新事件：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> (<span class="built_in">window</span>.applicationCache) &#123;</div><div class="line">  <span class="built_in">window</span>.applicationCache.addEventListener(<span class="string">'updateready'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">    <span class="comment">// 更新完成触发</span></div><div class="line">    <span class="keyword">if</span> (<span class="built_in">window</span>.applicationCache.status == <span class="built_in">window</span>.applicationCache.UPDATEREADY) &#123;</div><div class="line">      <span class="built_in">window</span>.applicationCache.swapCache();</div><div class="line">      <span class="keyword">if</span> (confirm(<span class="string">'更新成功，是否刷新页面?'</span>)) &#123;</div><div class="line">        <span class="built_in">window</span>.location.reload();</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="6-2-Web-Storage"><a href="#6-2-Web-Storage" class="headerlink" title="6.2. Web Storage"></a>6.2. Web Storage</h3><p>HTML5中提供了可以离线操作的数据存储接口：</p>
+<ul>
+<li>localStorage （永久，除非用户手动清除）</li>
+<li>sessionStorage （会话，关闭浏览器清除）</li>
+</ul>
+<p>两者操作方式完全相同，只不过是数据存储的周期不同</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> btnSet = <span class="built_in">document</span>.querySelector(<span class="string">'#btn_set'</span>);</div><div class="line"><span class="keyword">var</span> btnGet = <span class="built_in">document</span>.querySelector(<span class="string">'#btn_get'</span>);</div><div class="line"><span class="keyword">var</span> txtValue = <span class="built_in">document</span>.querySelector(<span class="string">'#txt_value'</span>);</div><div class="line">btnGet.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// txtValue.value = localStorage.getItem('key1');</span></div><div class="line">  txtValue.value = localStorage[<span class="string">'key1'</span>];</div><div class="line">&#125;);</div><div class="line">btnSet.addEventListener(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// localStorage.setItem('key1', txtValue.value);</span></div><div class="line">  localStorage[<span class="string">'key1'</span>] = txtValue.value;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<blockquote>
+<ol>
+<li>getItem方式获取一个不存在的键 返回空字符串</li>
+<li>[]方式获取一个不存在的键 返回undefined</li>
+</ol>
+</blockquote>
+<h2 id="7-文件-API"><a href="#7-文件-API" class="headerlink" title="7. 文件 API"></a>7. 文件 API</h2><blockquote>
+<p><a href="http://www.cnblogs.com/Joans/p/3158582.html" target="_blank" rel="external">input file类型，文件类型的限制</a></p>
+</blockquote>
+<h3 id="7-1-读取本地文件信息"><a href="#7-1-读取本地文件信息" class="headerlink" title="7.1. 读取本地文件信息"></a>7.1. 读取本地文件信息</h3><p>文件域对象可以获取用户选择文件的信息：</p>
+<ul>
+<li>文件名</li>
+<li>最近修改时间</li>
+<li>文件大小</li>
+<li>文件类型</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> input = <span class="built_in">document</span>.querySelector(<span class="string">'#input_1'</span>);</div><div class="line"><span class="keyword">var</span> file = input.files[<span class="number">0</span>];</div><div class="line">file.name <span class="comment">// 获取文件名</span></div><div class="line">file.lastModifiedDate <span class="comment">// 获取最近修改时间</span></div><div class="line">file.size <span class="comment">// 获取文件大小（单位KB）</span></div><div class="line">file.type <span class="comment">// 获取文件类型（如：text/plain、image/png）</span></div></pre></td></tr></table></figure>
+<h3 id="7-2-文件域改变事件"><a href="#7-2-文件域改变事件" class="headerlink" title="7.2. 文件域改变事件"></a>7.2. 文件域改变事件</h3><h3 id="7-3-文件域样式"><a href="#7-3-文件域样式" class="headerlink" title="7.3. 文件域样式"></a>7.3. 文件域样式</h3><h3 id="7-4-使用FileReader读取文件内容"><a href="#7-4-使用FileReader读取文件内容" class="headerlink" title="7.4. 使用FileReader读取文件内容"></a>7.4. 使用FileReader读取文件内容</h3><p>FileReader就是用来读取本地文件的对象</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> reader = <span class="keyword">new</span> FileReader();</div><div class="line">reader.addEventListener(<span class="string">'load'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">this</span>.result; <span class="comment">// 读取出来的结果</span></div><div class="line">&#125;);</div><div class="line">reader.readAsText(file); <span class="comment">// 以文本的形式读取</span></div><div class="line">reader.readAsDataURL(file); <span class="comment">// 以DataURI的形式读取</span></div><div class="line"><span class="comment">// 以下（后台工程师用，前端不会用到）</span></div><div class="line">reader.readAsBinaryString(file); <span class="comment">// 二进制格式</span></div><div class="line">reader.readAsArrayBuffer(file); <span class="comment">// 字节数组</span></div></pre></td></tr></table></figure>
+<h2 id="8-拖放操作"><a href="#8-拖放操作" class="headerlink" title="8. 拖放操作"></a>8. 拖放操作</h2><h3 id="8-1-网页内元素拖放"><a href="#8-1-网页内元素拖放" class="headerlink" title="8.1. 网页内元素拖放"></a>8.1. 网页内元素拖放</h3><ul>
+<li>拖放是 HTML5 中非常常见的功能</li>
+<li>我们可以通过在元素上添加<code>draggable=&quot;true&quot;</code>属性实现元素允许被拖拽</li>
+</ul>
+<blockquote>
+<p>提示：链接和图片默认是可拖动的，不需要 draggable 属性。</p>
+</blockquote>
+<ul>
+<li>ondrag 事件在元素或者选取的文本被拖动时触发。</li>
+<li>在拖放的过程中会触发以下事件：<ul>
+<li>在拖动目标上触发事件 (源元素):<ul>
+<li>ondragstart - 用户开始拖动元素时触发</li>
+<li>ondrag - 元素正在拖动时触发</li>
+<li>ondragend - 用户完成元素拖动后触发</li>
+</ul>
+</li>
+<li>释放目标时触发的事件（目标元素）:<ul>
+<li>ondragenter - 当被鼠标拖动的对象进入其容器范围内时触发此事件</li>
+<li>ondragover - 当某被拖动的对象在另一对象容器范围内拖动时触发此事件</li>
+<li>ondragleave - 当被鼠标拖动的对象离开其容器范围内时触发此事件</li>
+<li>ondrop - 在一个拖动过程中，释放鼠标键时触发此事件</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>注意： 在拖动元素时，每隔 350 毫秒会触发 ondrag 事件。</p>
+</blockquote>
+<h3 id="8-2-拖拽删除效果"><a href="#8-2-拖拽删除效果" class="headerlink" title="8.2. 拖拽删除效果"></a>8.2. 拖拽删除效果</h3><ul>
+<li>作业</li>
+</ul>
+<h3 id="8-3-桌面文件拖拽至网页"><a href="#8-3-桌面文件拖拽至网页" class="headerlink" title="8.3. 桌面文件拖拽至网页"></a>8.3. 桌面文件拖拽至网页</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 找到目标位置框框</span></div><div class="line"><span class="keyword">var</span> target = <span class="built_in">document</span>.querySelector(<span class="string">'#target'</span>);</div><div class="line"><span class="keyword">var</span> fileList = <span class="built_in">document</span>.querySelector(<span class="string">'#result'</span>);</div><div class="line"><span class="comment">// 注册拖拽进入</span></div><div class="line">target.addEventListener(<span class="string">'dragenter'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">this</span>.classList.add(<span class="string">'actived'</span>);</div><div class="line">&#125;);</div><div class="line"><span class="comment">// 离开</span></div><div class="line">target.addEventListener(<span class="string">'dragleave'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">this</span>.classList.remove(<span class="string">'actived'</span>);</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// 如果想要捕获drop事件 就一定得在该事件中阻止默认事件</span></div><div class="line">target.addEventListener(<span class="string">'dragover'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">  e.preventDefault();</div><div class="line">  e.stopPropagation();</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// 当元素放到该对象上</span></div><div class="line">target.addEventListener(<span class="string">'drop'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span> (e.dataTransfer.files.length) &#123;</div><div class="line">    <span class="keyword">var</span> files = e.dataTransfer.files;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; files.length; i++) &#123;</div><div class="line">      <span class="keyword">var</span> li = <span class="built_in">document</span>.createElement(<span class="string">'li'</span>);</div><div class="line">      li.setAttribute(<span class="string">'class'</span>, <span class="string">'list-group-item'</span>);</div><div class="line">      <span class="comment">// 创建信息的子节点</span></div><div class="line">      li.innerHTML = <span class="string">'&lt;h5 class="list-group-item-heading"&gt;'</span> + files[i].name + <span class="string">'&lt;/h5&gt;&lt;p class="list-group-item-text"&gt;'</span> + files[i].lastModifiedDate.toLocaleDateString() + <span class="string">' '</span> + files[i].lastModifiedDate.toLocaleTimeString() + <span class="string">' '</span> + (files[i].size / <span class="number">1024</span>).toFixed(<span class="number">2</span>) + <span class="string">'KB&lt;/p&gt;'</span>;</div><div class="line">      fileList.appendChild(li);</div><div class="line">    &#125;</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="comment">// 短路运算</span></div><div class="line">    <span class="comment">// var data = e.dataTransfer.getData('text/plain') || e.dataTransfer.getData('text/uri-list');</span></div><div class="line">    <span class="keyword">var</span> data = e.dataTransfer.getData(<span class="string">'text/plain'</span>);</div><div class="line">    <span class="keyword">if</span> (data) &#123;</div><div class="line">      <span class="comment">// 拖入的是文本</span></div><div class="line">      target.innerHTML = data;</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      <span class="keyword">var</span> img = <span class="built_in">document</span>.createElement(<span class="string">'img'</span>);</div><div class="line">      img.src = e.dataTransfer.getData(<span class="string">'text/uri-list'</span>);</div><div class="line">      target.appendChild(img);</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">this</span>.classList.remove(<span class="string">'actived'</span>);</div><div class="line">  e.preventDefault();</div><div class="line">  e.stopPropagation();</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="pagination" role="pagination">
+    
+    <a class="pull-left" href="/2016/12/31/JavaScript/" style="float: left;">
+        ← 
+    </a>
+    
+    
+</nav>
+
+        <div class="duoshuo">
+<div class="ds-thread" data-thread-key="2015/12/22/HTML5/" data-title="" data-url="http://yoursite.com/2015/12/22/HTML5/"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"duoshuo_name"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+	 || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By John Doe. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/mjczyt" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://www.facebook.com/ivan.tbs.3" title="Facebook" target="_blank"><i class="icon-facebook"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="http://weibo.com/2813973641/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+<!-- Initiate flexslider plugin -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+      $('.flexslider').flexslider({
+        animation: "fade",
+        prevText: "",
+        nextText: "",
+        directionNav: true
+      });
+    });
+</script>
+
+</body>
+</html>
