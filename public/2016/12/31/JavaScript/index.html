@@ -332,7 +332,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="pageX-clientX-screenX-区别"><a href="#pageX-clientX-screenX-区别" class="headerlink" title="# pageX  clientX  screenX 区别"></a># pageX  clientX  screenX 区别</h3><ul>
+<h4 id="pageX-clientX-screenX-区别"><a href="#pageX-clientX-screenX-区别" class="headerlink" title="pageX  clientX  screenX 区别"></a>pageX  clientX  screenX 区别</h4><ul>
 <li>screenX  screenY  是以我们的电脑屏幕为基准点测量 </li>
 <li>pageX    pageY    以我们的文档（绝对定位）的基准点对齐 （ie678 不认识） </li>
 <li>clientX   clientY  以可视区域(不包含滚动条内容）为基准点类似于固定定位  </li>
@@ -527,7 +527,7 @@ else {txt = document.selection.createRange().text;}   // ie 的写法
 
 ### 得到css 样式  
 box.style.left    box.style.backgorundColor  只能得到行内的样式。 
-### #得到内嵌或者外链的样式
+####得到内嵌或者外链的样式
 1. obj.currentStyle   ie  opera  常用
 外部（使用link）和内嵌（使用style）样式表中的样式（ie和opera）
 2. window.getComputedStyle(&quot;元素&quot;, &quot;伪类&quot;)     w3c 
@@ -716,7 +716,7 @@ var duoshuoQuery = {short_name:"duoshuo_name"};
                 <p>
                     &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By John Doe. All Rights Reserved.
                 </p>
-                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+
             </div>
             <div class="social">
                 <ul>

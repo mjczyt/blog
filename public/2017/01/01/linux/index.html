@@ -217,6 +217,8 @@ THE_SET_GLOBLE_ENV_PATH为命令所在的bin文件目录。
 <li><p>用pwd来查看当前位置的路径。</p>
 </li>
 <li>将linux上的文件夹设置可读写权限chmod -R a+w 目录名   -R是递归久是在该目录下所有文件将都按照这个权限设置。</li>
+<li>查看当前进程ps -aux 显示所有状态</li>
+<li>终止进程kill -9 [PID] -9 表示强迫进程立即停止</li>
 </ol>
 <h2 id="Systemd"><a href="#Systemd" class="headerlink" title="Systemd"></a>Systemd</h2><h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>Systemd 启动上面这个脚本，需要一个配置文件node-server.service。这个文件的文件名可以随便取，但是后缀名必须是.service。</p>
 <pre><code>[Unit]
@@ -299,7 +301,7 @@ $ sudo systemctl stop node-server
         </div>
         <nav class="pagination" role="pagination">
     
-    <a class="pull-left" href="/2017/01/03/node/" style="float: left;">
+    <a class="pull-left" href="/2017/01/03/Angular1/" style="float: left;">
         ← 
     </a>
     

@@ -224,7 +224,7 @@
 </ul>
 </li>
 </ol>
-<h1 id="网络通信"><a href="#网络通信" class="headerlink" title="网络通信"></a>网络通信</h1><h1 id="REST-API"><a href="#REST-API" class="headerlink" title="# REST API"></a># REST API</h1><ul>
+<h1 id="网络通信"><a href="#网络通信" class="headerlink" title="网络通信"></a>网络通信</h1><h2 id="REST-API"><a href="#REST-API" class="headerlink" title="REST API"></a>REST API</h2><ul>
 <li>API与用户的通信协议，总是使用HTTPs协议。</li>
 <li>应该尽量将API部署在专用域名之下，或者主域名下：<a href="https://example.org/api/" target="_blank" rel="external">https://example.org/api/</a></li>
 <li>应该将API的版本号放入URL：<a href="https://api.example.com/v1/" target="_blank" rel="external">https://api.example.com/v1/</a></li>
@@ -255,11 +255,12 @@
 <li>模块导出时用module.exports={函数名}的形式，导入模块时即使在同一目录下也需要在开头加“./文件名.js”若不加./则优先在内置模块中寻找，然后是在node_modules文件夹中寻找。</li>
 <li>绝大部分node异步API接收的回调函数，第一个参数都是错误对象或者是null。</li>
 <li><p>Event模块时node对‘发布/订阅’模式的实现，其中提供了一个EventEmitter对象，核心事件就是事件的触发与事件监听功能的封装。</p>
-<pre><code>var EventEmitter = require(&apos;events&apos;).EventEmitter;                
-var emitter = new EventEmitter; //初始化对象
-emitter.on(‘自定义事件名’，function（）{})  //绑定事件
-emitter.emit(‘事件名’，‘回调函数的参数’) // 触发事件
-</code></pre></li>
+<pre><code class="javascript"><span class="keyword">var</span> EventEmitter = <span class="built_in">require</span>(<span class="string">'events'</span>).EventEmitter;                
+<span class="keyword">var</span> emitter = <span class="keyword">new</span> EventEmitter; <span class="comment">//初始化对象</span>
+emitter.on(‘自定义事件名’，<span class="function"><span class="keyword">function</span>（）</span>{})  <span class="comment">//绑定事件</span>
+emitter.emit(‘事件名’，‘回调函数的参数’) <span class="comment">// 触发事件</span>
+</code></pre>
+</li>
 <li>使用net.creatServer( function(socket){})时候回调函数传回来的是一个socket对象，可以通过给socket对象setEncoding来设置接收到的流的显示方式。socket.on(‘data’,回调函数)来给socket绑定接受到数据时触发的事件。</li>
 <li>fs.createReadStream(‘fire.jpg’).pipe(respond);在http中通过流的方式给页面中传图片。</li>
 <li>node中http会将所有主机名后面的内容放入request.url中.</li>
@@ -333,7 +334,7 @@ var duoshuoQuery = {short_name:"duoshuo_name"};
                 <p>
                     &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By John Doe. All Rights Reserved.
                 </p>
-                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+
             </div>
             <div class="social">
                 <ul>

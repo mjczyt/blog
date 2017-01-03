@@ -6,7 +6,7 @@
 - event 常见属性
 属性	|作用
 ------------------|:----------data	|返回拖拽对象的URL字符串（dragDrop）width	|该窗口或框架的高度height  |该窗口或框架的高度pageX	|光标相对于该网页的水平位置（ie无）pageY	|光标相对于该网页的垂直位置（ie无）screenX	|光标相对于该屏幕的水平位置screenY	|光标相对于该屏幕的垂直位置target	|该事件被传送到的对象type	|事件的类型clientX	|光标相对于该网页的水平位置 （当前可见区域）clientY	|光标相对于该网页的水平位置
-### # pageX  clientX  screenX 区别-  screenX  screenY  是以我们的电脑屏幕为基准点测量 -  pageX    pageY    以我们的文档（绝对定位）的基准点对齐 （ie678 不认识） -  clientX   clientY  以可视区域(不包含滚动条内容）为基准点类似于固定定位  
+#### pageX  clientX  screenX 区别-  screenX  screenY  是以我们的电脑屏幕为基准点测量 -  pageX    pageY    以我们的文档（绝对定位）的基准点对齐 （ie678 不认识） -  clientX   clientY  以可视区域(不包含滚动条内容）为基准点类似于固定定位  
 ### 	入口函数  window.onload = function(){内部放js} 页面的结构,样式,节点等加载完毕后执行。
 ### 	变量声明提升	function fun(){console.log(num);                var num = 20;}	相当于 ---	function fun(){var num;               console.log(num);               Num = 20;}**在函数体内部，声明变量，会把该声明提升到函数体的最顶端。 只提升变量声明，不赋值。**###  函数参数- JavaScript在创建函数的同时，会在函数内部创建一个arguments对象实例,用于存储函数传送过过来实参，长度为实参个数。- arguments对象只有函数开始时才可用。函数的 arguments 对象并不是一个数组，访问单个参数的方式与访问数组元素的方式相同
 -  	function fn(a,b){
@@ -56,7 +56,7 @@
 ```
 
 ### 我们访问得到css 属性，比较常用的有两种：1. 利用点语法 	box.style.width      box.style.top      但是这个语法有非常大的缺陷，不变的。 后面的width和 top没有办法传递参数的。2. 利用 []  访问属性      语法格式:  box.style[“width”]                    元素.style[“属性”];      最大的优点  ：  可以给属性传递参数
-### 得到css 样式  box.style.left    box.style.backgorundColor  只能得到行内的样式。 ### #得到内嵌或者外链的样式
+### 得到css 样式  box.style.left    box.style.backgorundColor  只能得到行内的样式。 ####得到内嵌或者外链的样式
 1. obj.currentStyle   ie  opera  常用外部（使用link）和内嵌（使用style）样式表中的样式（ie和opera）2. window.getComputedStyle("元素", "伪类")     w3c 两个选项是必须的， 没有伪类用 null 替代
 3. 兼容写法 ：
 

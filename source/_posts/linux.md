@@ -2,7 +2,9 @@
 
 	```	- 编辑profile： vi /etc/profile  	- 在最后后加一行：export PATH=THE_SET_GLOBLE_ENV_PATH:$PATH;	THE_SET_GLOBLE_ENV_PATH为命令所在的bin文件目录。
 	```
-2.	用pwd来查看当前位置的路径。3.	将linux上的文件夹设置可读写权限chmod -R a+w 目录名   -R是递归久是在该目录下所有文件将都按照这个权限设置。## Systemd
+2.	用pwd来查看当前位置的路径。3.	将linux上的文件夹设置可读写权限chmod -R a+w 目录名   -R是递归久是在该目录下所有文件将都按照这个权限设置。
+4. 查看当前进程ps -aux 显示所有状态
+5. 终止进程kill -9 [PID] -9 表示强迫进程立即停止## Systemd
 ### 修改配置文件
 Systemd 启动上面这个脚本，需要一个配置文件node-server.service。这个文件的文件名可以随便取，但是后缀名必须是.service。
 	
