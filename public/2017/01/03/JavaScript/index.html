@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+  <title>Hexo</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Hexo">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+	
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+    
+
+    <!-- Custom stylesheet, (add custom styles here, always load last) -->
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- Google Webfonts (Monserrat 400/700, Open Sans 400/600) -->
+    <link href='//fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.useso.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.useso.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
+
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://www.mafengwo.cn/u/69738984.html" class="animsition-link">Mafengwo</a></li>
+                    
+                    <li><a href="https://500px.com/mjczyt" class="animsition-link">500PX</a></li>
+                    
+                    <li><a href="http://www.lofter.com/dashboard/" class="animsition-link">lofter</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">Hexo</a></li>
+                            <li class="nolink"><span>Always </span>Strive.</li>
+                            
+                            <li><a href="https://github.com/mjczyt" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            
+                            
+                            <li><a href="https://www.facebook.com/ivan.tbs.3" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                            
+                            
+                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
+                            
+                            
+                            <li><a href="http://weibo.com/2813973641/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2017-01-03T02:11:43.000Z" itemprop="datePublished">
+          2017-01-03
+      </time>
+    
+</span>
+                <h1></h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<h1 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h1><h3 id="将字符串转换为数字"><a href="#将字符串转换为数字" class="headerlink" title="将字符串转换为数字"></a>将字符串转换为数字</h3><ul>
+<li>parseInt()  ◆只保留数字的整数部分，不会进行四舍五入运算。</li>
+<li>parseFloat()◆如果在数字后加上非数字的字符，也可以转换成功。</li>
+</ul>
+<h3 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h3><pre><code>事件源.事件 = function(event){  事件处理函数 }或＝函数名； 
+</code></pre><table>
+<thead>
+<tr>
+<th>事件</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>onclick</td>
+<td style="text-align:left">鼠标单击</td>
+</tr>
+<tr>
+<td>ondblclick</td>
+<td style="text-align:left">鼠标双击</td>
+</tr>
+<tr>
+<td>onkeyup</td>
+<td style="text-align:left">按下并释放键盘上的一个键时触发 </td>
+</tr>
+<tr>
+<td>onchange</td>
+<td style="text-align:left">文本内容或下拉菜单中的选项发生改变</td>
+</tr>
+<tr>
+<td>onfocus</td>
+<td style="text-align:left">获得焦点，表示文本框等获得鼠标光标。</td>
+</tr>
+<tr>
+<td>onblur</td>
+<td style="text-align:left">失去焦点，表示文本框等失去鼠标光标。</td>
+</tr>
+<tr>
+<td>onmouseover</td>
+<td style="text-align:left">鼠标悬停，即鼠标停留在图片等的上方</td>
+</tr>
+<tr>
+<td>onmouseout</td>
+<td style="text-align:left">鼠标移出，即离开图片等所在的区域</td>
+</tr>
+<tr>
+<td>onload</td>
+<td style="text-align:left">网页文档加载事件</td>
+</tr>
+<tr>
+<td>onunload</td>
+<td style="text-align:left">关闭网页时</td>
+</tr>
+<tr>
+<td>onsubmit</td>
+<td style="text-align:left">表单提交事件</td>
+</tr>
+<tr>
+<td>onreset</td>
+<td style="text-align:left">重置表单时</td>
+</tr>
+<tr>
+<td>oninput</td>
+<td style="text-align:left">正在输入时</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>event 常见属性</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th style="text-align:left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td style="text-align:left">返回拖拽对象的URL字符串（dragDrop）</td>
+</tr>
+<tr>
+<td>width</td>
+<td style="text-align:left">该窗口或框架的高度</td>
+</tr>
+<tr>
+<td>height</td>
+<td style="text-align:left">该窗口或框架的高度</td>
+</tr>
+<tr>
+<td>pageX</td>
+<td style="text-align:left">光标相对于该网页的水平位置（ie无）</td>
+</tr>
+<tr>
+<td>pageY</td>
+<td style="text-align:left">光标相对于该网页的垂直位置（ie无）</td>
+</tr>
+<tr>
+<td>screenX</td>
+<td style="text-align:left">光标相对于该屏幕的水平位置</td>
+</tr>
+<tr>
+<td>screenY</td>
+<td style="text-align:left">光标相对于该屏幕的垂直位置</td>
+</tr>
+<tr>
+<td>target</td>
+<td style="text-align:left">该事件被传送到的对象</td>
+</tr>
+<tr>
+<td>type</td>
+<td style="text-align:left">事件的类型</td>
+</tr>
+<tr>
+<td>clientX</td>
+<td style="text-align:left">光标相对于该网页的水平位置 （当前可见区域）</td>
+</tr>
+<tr>
+<td>clientY</td>
+<td style="text-align:left">光标相对于该网页的水平位置</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pageX-clientX-screenX-区别"><a href="#pageX-clientX-screenX-区别" class="headerlink" title="# pageX  clientX  screenX 区别"></a># pageX  clientX  screenX 区别</h3><ul>
+<li>screenX  screenY  是以我们的电脑屏幕为基准点测量 </li>
+<li>pageX    pageY    以我们的文档（绝对定位）的基准点对齐 （ie678 不认识） </li>
+<li>clientX   clientY  以可视区域(不包含滚动条内容）为基准点类似于固定定位  </li>
+</ul>
+<h3 id="入口函数"><a href="#入口函数" class="headerlink" title="入口函数"></a>入口函数</h3><p> window.onload = function(){内部放js} 页面的结构,样式,节点等加载完毕后执行。</p>
+<h3 id="变量声明提升"><a href="#变量声明提升" class="headerlink" title="变量声明提升"></a>变量声明提升</h3><pre><code>function fun(){console.log(num);
+            var num = 20;}
+相当于 ---
+function fun(){var num;
+           console.log(num);
+           Num = 20;}
+</code></pre><p><strong>在函数体内部，声明变量，会把该声明提升到函数体的最顶端。 只提升变量声明，不赋值。</strong></p>
+<h3 id="函数参数"><a href="#函数参数" class="headerlink" title="函数参数"></a>函数参数</h3><ul>
+<li>JavaScript在创建函数的同时，会在函数内部创建一个arguments对象实例,用于存储函数传送过过来实参，长度为实参个数。</li>
+<li>arguments对象只有函数开始时才可用。函数的 arguments 对象并不是一个数组，访问单个参数的方式与访问数组元素的方式相同</li>
+<li>function fn(a,b){<br>console.log(fn.length);  //得到是函数的形参的个数<br>console.log(arguments.length);<br>} // 得到的是实参的个数  </li>
+<li>arguments.callee; 返回的是正在执行的函数本身。 也是在函数体内使用。 在使用函数递归调用时推荐使用arguments.callee代替函数名本身</li>
+</ul>
+<h3 id="this-事件的调用者"><a href="#this-事件的调用者" class="headerlink" title="this (事件的调用者)"></a>this (事件的调用者)</h3><ul>
+<li>函数中遇到要修改自身属性的一定要用this来代替自身。</li>
+<li>innerHTML   更换盒子里面的内容 文字 标签都换.</li>
+<li>Input.value  更换表单内容（单标签内容都是通过value得到）<br>$(“txt”).focus();给表单使用，使光标聚焦在表单可直接输入。<br>$(“txt”).select();全选表单中的内容。</li>
+</ul>
+<h3 id="判断真假"><a href="#判断真假" class="headerlink" title="判断真假"></a>判断真假</h3><p>我们用条件语句来判断5大数据类型中的真假；</p>
+<table>
+<thead>
+<tr>
+<th>数据</th>
+<th style="text-align:left">结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数字类型</td>
+<td style="text-align:left">所有数字都是真，0是假</td>
+</tr>
+<tr>
+<td>字符串</td>
+<td style="text-align:left">所有字符串都是真，’ ’串是假</td>
+</tr>
+<tr>
+<td>对象</td>
+<td style="text-align:left">所有对象都是真，null是假</td>
+</tr>
+<tr>
+<td>未定义</td>
+<td style="text-align:left">undefined是假，没有真</td>
+</tr>
+</tbody>
+</table>
+<h3 id="访问关系"><a href="#访问关系" class="headerlink" title="访问关系"></a>访问关系</h3><ul>
+<li>父 ：   this.parentNode  得到父亲的标签</li>
+<li>兄弟：  nextElementSibling 下一个兄弟 <pre><code>previousElementSibling 上一个兄弟
+</code></pre></li>
+<li>子节点: children</li>
+</ul>
+<h3 id="插入节点"><a href="#插入节点" class="headerlink" title="插入节点"></a>插入节点</h3><ol>
+<li>appendChild();      添加子节点放到盒子的最后面。</li>
+<li>insertBefore(插入的节点，参照节点)   子节点  写满两个参数 </li>
+<li>demo.insertBefore(test,childrens[0]);<br>如果第二个参数为 null则默认这新生成的盒子放到最后面。</li>
+</ol>
+<h3 id="克隆节点"><a href="#克隆节点" class="headerlink" title="克隆节点"></a>克隆节点</h3><ul>
+<li>cloneNode();<br>括号里面如果里面是 true  深层复制，除了复制本盒子，还复制子节点。<br>如果为 false  浅层复制 只复制 本节点 不复制 子节点。</li>
+</ul>
+<h3 id="设置节点属性"><a href="#设置节点属性" class="headerlink" title="设置节点属性"></a>设置节点属性</h3><ol>
+<li>获取节点属性     getAttribute(属性)     </li>
+<li>设置节点属性     setAttribute(“属性”,”值”);</li>
+<li>删除某个属性     removeAttribute(“属性”); </li>
+</ol>
+<h3 id="声明日期"><a href="#声明日期" class="headerlink" title="声明日期"></a>声明日期</h3><pre><code>var  date = new Date(); 
+</code></pre><ul>
+<li>若括号内写日期“2015/12/12 17:30:00”则是定义自己的时间  日期与时间中用空格隔开，不写日期是当前时间。</li>
+<li>提倡使用date.getTime();date.valueOf();都是得到距离 1970年的毫秒数,做计算用 </li>
+<li>Date.prototype.toLocaleDateString()转换为当前日期格式    </li>
+</ul>
+<h3 id="定时器"><a href="#定时器" class="headerlink" title="定时器"></a>定时器</h3><pre><code>var timer= window.setInterval(“执行的函数名”,间隔时间) 
+</code></pre><ul>
+<li>关闭定时器  clearInterval(定时器名称);</li>
+<li>倒计时定时器 setTimeout(“函数”, 时间 )  只执行一次  </li>
+</ul>
+<p><strong>深层次的看待定时器区别：</strong></p>
+<ul>
+<li>setInterval是排队执行的，假如间隔时间是1秒，而执行的程序的时间是2秒，上次还没执行完的代码会排队, 上一次执行完下一次的就立即执行, 这样实际执行的间隔时间为2秒</li>
+<li>setTimeout延迟时间为1秒执行, 要执行的代码需要2秒来执行,那这段代码上一次与下一次的执行时间为3秒. </li>
+</ul>
+<blockquote>
+<p>要养成习惯要使用定时器前先清楚之前的定时器。<br>Javascript是单线程执行的，当某段代码正在执行的时候，所有后续的任务必须等待，行程一个队列，一旦当前任务执行完毕，再从队列中取出下一个任务，被称为“阻塞式执行”。如果代码中设定了一个setTimeout，那么浏览器会在合适的时间将代码插入任务队列，如果这个时间设为0就代表立即插入队列等待执行。属于异步执行函数。</p>
+</blockquote>
+<h3 id="offset"><a href="#offset" class="headerlink" title="offset"></a>offset</h3><pre><code>得到对象的宽度和高度(自己的，与他人无关) 
+offsetWidth =  width  + border  +  padding    
+div.style.width   这样只能得到行内样式的数值
+   offsetLeft  offsetTop 返回子盒子到带有定位的父盒子边框到边框的距离
+如果父级都没有定位则以body 为准   
+ offsetLeft 从父级的padding 开始算，父亲的border 不算
+offsetParent  返回改对象带有定位的父级 
+如果当前元素的父级元素中有CSS定位（position），offsetParent取最近的那个父级元素。
+</code></pre><p><strong>offsetTop 与 style.top 的区别:</strong></p>
+<ul>
+<li>最大区别在于  offsetTop  可以返回没有定位盒子的距离左侧的位置。 而 style.top 不可以（只有定位的盒子才有 left top right）</li>
+<li>最重要的区别style.left 只能得到行内样式offsetLeft都可以</li>
+<li>offsetTop 返回的是数字，而 style.top 返回的是字符串，除了数字外还带有单位：px。 </li>
+<li>offsetTop 只读，而 style.top 可读写。</li>
+<li>如果没有给 HTML 元素指定过 top 样式，则 style.top 返回空字符串。</li>
+</ul>
+<h3 id="scrollTop-scrollLeft"><a href="#scrollTop-scrollLeft" class="headerlink" title="scrollTop    scrollLeft"></a>scrollTop    scrollLeft</h3><p> scrollTop   当滑动滚轮浏览网页的时候网页隐藏在屏幕上方的距离</p>
+<ul>
+<li><p>页面滚动效果  </p>
+<pre><code>window.onscroll = function() { 页面滚动语句  }
+</code></pre><p>谷歌浏览器 和没有声明 DTD ： document.body.scrollTop;<br>火狐 和其他浏览器   document.documentElement.scrollTop;<br>ie9+  和 最新浏览器都认识window.pageXOffset;     pageYOffset  （scrollTop）</p>
+</li>
+<li>兼容性写法：  var scrollTop = window.pageYOffset || document.documentElement.scrollTop|| document.body.scrollTop || 0;</li>
+</ul>
+<h3 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h3><ul>
+<li><p>JSON(JavaScript Object Notation) 是一种轻量级的数据交换格式，我们称之为JavaScript对象表示法。使用JSON进行数据传输的优势之一。  </p>
+</li>
+<li><p>Json一般就是被当做一个配置单用； 键必须用双引号括起来。<br>  用for循环json时for（key in json）｛其中json［key］表示相应的value｝<br>  var json1 = {name :”刘德华”,age: 55};<br>  console.log(json1.name);  // 输出名字  刘德华</p>
+</li>
+</ul>
+<h3 id="scroll函数返回scrollLeft和scrollTop的json"><a href="#scroll函数返回scrollLeft和scrollTop的json" class="headerlink" title="scroll函数返回scrollLeft和scrollTop的json"></a>scroll函数返回scrollLeft和scrollTop的json</h3><pre><code>function scroll() {
+if(window.pageYOffset != null)  //  ie9+ 和其他浏览器
+{return {left: window.pageXOffset,
+        top: window.pageYOffset}}
+else if(document.compatMode == &quot;CSS1Compat&quot;)  // 声明的了 DTD
+// 检测是不是怪异模式的浏览器 -- 就是没有声明&lt;!DOCTYPE html&gt;
+{return {left: document.documentElement.scrollLeft,
+        top: document.documentElement.scrollTop}}
+return {left: document.body.scrollLeft,   //  剩下的肯定是怪异模式的
+        top: document.body.scrollTop}} 
+</code></pre><h3 id="页面点击滑动效果"><a href="#页面点击滑动效果" class="headerlink" title="页面点击滑动效果"></a>页面点击滑动效果</h3><pre><code>var leader = 0,target = 0,timer = null;
+for(var i= 0; i&lt;ulBoxLi.length; i++)
+{   olBoxLi[i].index = i;  // 记录当前的索引号
+    olBoxLi[i].onclick = function() {
+            clearInterval(timer);
+            target = ulBoxLi[this.index].offsetTop; // 核心语句
+            timer = setInterval(function() {
+                leader = leader + (target - leader ) /10;
+                window.scrollTo(0,leader); // 屏幕滑动
+                //pic.style.left = leader  + &apos;px&apos;;
+            },30)}}
+</code></pre><h3 id="client-家族（可视区域）"><a href="#client-家族（可视区域）" class="headerlink" title="client 家族（可视区域）"></a>client 家族（可视区域）</h3><pre><code>offsetWidth:   width  +  padding  +  border     
+clientWidth：  width  +  padding     不包含border  
+scrollWidth:   大小是内容的大小    
+</code></pre><h3 id="检测屏幕宽度-可视区域"><a href="#检测屏幕宽度-可视区域" class="headerlink" title="检测屏幕宽度(可视区域)"></a>检测屏幕宽度(可视区域)</h3><ul>
+<li>ie9及其以上的版本   window.innerWidth  </li>
+<li>标准模式   document.documentElement.clientWidth</li>
+<li>怪异模式   document.body.clientWidth</li>
+</ul>
+<pre><code>自己封装一个 返回可视区宽度和高度的函数。
+function client() {
+        if(window.innerWidth != null)  // ie9 +  最新浏览器
+        { return {width: window.innerWidth, 
+                  height: window.innerHeight}}
+        else if(document.compatMode === &quot;CSS1Compat&quot;)  // 标准浏览器
+        {return {width: document.documentElement.clientWidth,
+                height: document.documentElement.clientHeight}}
+        return { width: document.body.clientWidth,
+                 height: document.body.clientHeight}}    // 怪异浏览器
+</code></pre><h3 id="window-onresize-改变窗口事件"><a href="#window-onresize-改变窗口事件" class="headerlink" title="window.onresize    改变窗口事件"></a>window.onresize    改变窗口事件</h3><pre><code>window.onresize = function() {}  窗口框架被调整大小时的事件 
+</code></pre><h3 id="简单冒泡机制"><a href="#简单冒泡机制" class="headerlink" title="简单冒泡机制"></a>简单冒泡机制</h3><ul>
+<li>事件冒泡: 当一个元素上的事件被触发的时候，比如说鼠标点击了一个按钮，同样的事件将会在那个元素的所有父元素中被触发。这一过程被称为事件冒泡；这个事件从原始元素开始一直冒泡到DOM树的最上层。</li>
+<li>顺序div -&gt; body -&gt; html -&gt; document -&gt; window</li>
+<li>不是所有的事件都能冒泡。以下事件不冒泡：blur、focus、load、unload</li>
+</ul>
+<ul>
+<li><p><strong>阻止冒泡的方法 </strong></p>
+<pre><code>if(event &amp;&amp; event.stopPropagation)
+{event.stopPropagation();}     // w3c 标准
+else
+{event.cancelBubble = true; }  // ie678 ie浏览器
+</code></pre></li>
+</ul>
+<h3 id="判断当前对象"><a href="#判断当前对象" class="headerlink" title="判断当前对象"></a>判断当前对象</h3><p>   火狐 谷歌 等       event.target.id<br>   ie 678         event.srcElement.id    </p>
+<ul>
+<li>兼容   var targetId = event.target ? event.target.id : event.srcElement.id;</li>
+</ul>
+<h3 id="获得用户选择内容"><a href="#获得用户选择内容" class="headerlink" title="获得用户选择内容"></a>获得用户选择内容</h3><pre><code>window.getSelection()     标准浏览器
+document.selection.createRange().text;      ie 获得选择的文字
+兼容性的写法：
+if(window.getSelection)
+{txt = window.getSelection().toString();}  // 转换为字符串
+else {txt = document.selection.createRange().text;}   // ie 的写法
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">###   动画原理： style.left =  盒子的 offsetLeft  +  步长```  匀速运动封装函数1   function animate(obj,target)&#123;        var speed = obj.offsetLeft &lt; target ? 5 : -5;  // 用来判断应该+还是 -        obj.timer = setInterval(function() &#123;            var result = target - obj.offsetLeft; // 因为他们的差值不会超过5            obj.style.left = obj.offsetLeft + speed + &quot;px&quot;;            if(Math.abs(result)&lt;=5)  // 如果差值不小于 5 说明到位置了            &#123;clearInterval(obj.timer);             obj.style.left = target + &quot;px&quot;;  //直接跳转目标位置            &#125;        &#125;,30) &#125;</div></pre></td></tr></table></figure>
+
+### 我们访问得到css 属性，比较常用的有两种：
+1. 利用点语法 
+    box.style.width      box.style.top    
+  但是这个语法有非常大的缺陷，不变的。 后面的width和 top没有办法传递参数的。
+2. 利用 []  访问属性
+      语法格式:  box.style[“width”]   
+                 元素.style[“属性”];
+      最大的优点  ：  可以给属性传递参数
+
+### 得到css 样式  
+box.style.left    box.style.backgorundColor  只能得到行内的样式。 
+### #得到内嵌或者外链的样式
+1. obj.currentStyle   ie  opera  常用
+外部（使用link）和内嵌（使用style）样式表中的样式（ie和opera）
+2. window.getComputedStyle(&quot;元素&quot;, &quot;伪类&quot;)     w3c 
+两个选项是必须的， 没有伪类用 null 替代
+3. 兼容写法 ：
+</code></pre><pre><code>封装获取属性的方法。
+function getStyle(obj,attr) {  
+    if(obj.currentStyle)  // ie 等
+    {return obj.currentStyle[attr];}
+    else
+    {return window.getComputedStyle(obj,null)[attr]; }｝ // w3c 浏览器
+```
+</code></pre><h3 id="in-运算符"><a href="#in-运算符" class="headerlink" title="in 运算符"></a>in 运算符</h3><p>in运算符也是一个二元运算符，但是对运算符左右两个操作数的要求比较严格。in运算符要求第1个（左边的）操作数必须是字符串类型或可以转换为字符串类型的其他类型，而第2个（右边的）操作数必须是数组或对象。只有第1个操作数的值是第2个操作数的属性名，才会返回true，否则返回false.</p>
+<p>##html5中javascript的提升</p>
+<h3 id="新选择器-JS多了一个原始支持，类似jqueryDOM选择器"><a href="#新选择器-JS多了一个原始支持，类似jqueryDOM选择器" class="headerlink" title="新选择器  JS多了一个原始支持，类似jqueryDOM选择器"></a>新选择器  JS多了一个原始支持，类似jqueryDOM选择器</h3><p>document.querySelector(selector) 可以通过CSS选择器的语法找到DOM元素<br>document.querySelectorAll(‘.item’) 返回所有满足该条件元素dom类型数组</p>
+<ol>
+<li>本质上jquery方式和querySelector方式都是获取DOM数组， 只不过jquery会多一些其他成员。</li>
+<li>DOM数组的每一个成员注册事件不能像jquery一样直接注册， 必须分别给每个元素注册.</li>
+<li>h5就是将我们经常需要的操作又包装一层<h3 id="元素-classList"><a href="#元素-classList" class="headerlink" title="元素.classList"></a>元素.classList</h3></li>
+<li>新H5中DOM对象多了一个classList属性，是一个数组</li>
+<li>.add() 添加一个新的类名</li>
+<li>.remove() 删除一个的类名</li>
+<li>.contains() 判断是否包含一个指定的类名 </li>
+<li>.toggle() 切换一个class element.toggle(‘class-name’,[add_or_remove])</li>
+<li>.toggle()函数的第二个参数true为添加 false删除</li>
+</ol>
+<h3 id="访问历史-API"><a href="#访问历史-API" class="headerlink" title="访问历史 API"></a>访问历史 API</h3><p>界面上的所有JS操作不会被浏览器记住，就无法回到之前的状态<br>在HTML5中可以通过window.history操作访问历史状态，让一个页面可以有多个历史状态</p>
+<ol>
+<li>window.history.forward(); // 前进</li>
+<li>window.history.back(); // 后退</li>
+<li>window.history.go(); // 刷新</li>
+<li>history.pushState(放入历史中的状态数据, 设置title(现在浏览器不支持)， 改变历史状态)</li>
+</ol>
+<h3 id="2-2-网页存储"><a href="#2-2-网页存储" class="headerlink" title="2.2 网页存储"></a>2.2 网页存储</h3><h3 id="2-2-1-Web-Storage"><a href="#2-2-1-Web-Storage" class="headerlink" title="2.2.1 Web Storage"></a>2.2.1 Web Storage</h3><ol>
+<li>localStorge.setItem(键，值)方式向本地存储数据，sessionStorge临时数据</li>
+</ol>
+<h3 id="2-4-拖放操作"><a href="#2-4-拖放操作" class="headerlink" title="2.4 拖放操作"></a>2.4 拖放操作</h3><p>想要捕获drop事件就一定要在改事件里阻止默认事件<br>    target.addEventListener(“dragover”,function(e ){<br>    e.preventDefault();<br>    e.stopPropagation();<br>     })</p>
+<h3 id="使用indexDB数据库"><a href="#使用indexDB数据库" class="headerlink" title="使用indexDB数据库"></a>使用indexDB数据库</h3><ol>
+<li>获取浏览器关于indexDB的一些对象，为了浏览器兼容性<br>window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;<br>window.IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.msIDBTransaction;<br>window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || window.msIDBKeyRange;<br>window.IDBCursor = window.IDBCursor || window.webkitIDBCursor || window.msIDBCursor;<br> var dbInfo = {         // </li>
+<li>定义一些数据库配置信息<br>   dbName:”IndexDB”,  // 数据库的名称<br>   dbVersion:2018     // 数据库的版本号<br> };数据库创建的时候默认版本号为1，当我们传入的版本号和数据库当前版本号不一致的时候onupgradeneeded就会被调用，当然我们不能试图打开比当前数据库版本低的version，否则调用的就是onerror了<br> var dbContent = window.indexedDB.open(dbInfo.dbName, dbInfo.dbVersion);  // 3、创建数据库连接</li>
+<li><p>控制数据库版本升级的方法，创建新store（表），或者是修改，都在这里面执行</p>
+<pre><code>dbContent.onupgradeneeded = function (e) {console.log(&quot;数据库版本发生变化&quot;);}
+//  3.2当数据库连接成功的时候执行的方法，我们一般的增删改查都在这里面进行操作
+dbContent.onsuccess = function (e) {console.log(e);}
+//  3.3当我们数据库连接是失败的时候执行的方法。
+dbContent.onerror  = function (e) {  }
+</code></pre></li>
+</ol>
+<h3 id="面向对象构造函数方式，传参时使用对象形式"><a href="#面向对象构造函数方式，传参时使用对象形式" class="headerlink" title="面向对象构造函数方式，传参时使用对象形式{ }"></a>面向对象构造函数方式，传参时使用对象形式{ }</h3><pre><code>function Sprite( option ) {this._init( option );}
+Sprite.prototype = {
+    _init: function( option ) {// 加下划线进行区分，仅用于内部调用。
+        this.name = option.name;
+        this.x = option.x === 0 ? 0 : (option.x || 10);
+//传入参数x不为数字或没有传入参数情况下使用默认值10，因为有可能传入0，所以使用三元运算符来保证传入0的时候不被当做false而使用默认值
+        this.color = &apos;red&apos;;
+    },
+    angleToRad: function( angel ) {
+        return angel * Math.PI / 180;
+    },
+    show: function( arg ) {
+        console.log( this.angleToRad( 30 ) );
+        console.log( &apos;ss&apos; + arg );
+    }
+};
+</code></pre><h3 id="get-set语法规范"><a href="#get-set语法规范" class="headerlink" title="get set语法规范"></a>get set语法规范</h3><pre><code>Object.defineProperty(this, &quot;price&quot;, {
+get: function () {return price*0.9;},
+set: function (value) {
+    /*大概普通产品的价格都在0--1万*/
+    if(value&gt;10000)
+    {
+        alert(&apos;产品价格必须在0--1万之间&apos;);
+    }else{
+        price = value;
+    }
+}
+});
+</code></pre><h1 id="小知识点："><a href="#小知识点：" class="headerlink" title="小知识点："></a>小知识点：</h1><ol>
+<li>设置图片时<image scr="" alt="" width="">单设置一个长或宽则剩下的边长按比例自动设置。</image></li>
+<li>鼠标移至图片上时变成小手给图片添加样式 cursor：pointer；</li>
+<li>阻止表单提交<form action="javascript:;"></form></li>
+<li>设置盒子权重时在样式中写 z-index:数字越大优先级越高。</li>
+<li>id选择器与类选择器的区别：同一个页面中一个标签只能对应一个id但是可以选择多个类，类也可以应用在多个标签中。</li>
+<li>给a标签的href=”javascript:;” 其中javascript:是伪协议，它可以让我们通过一个链接来调用javascript函数.而采用这个方式 javascript:;可以实现A标签的点击事件运行时，如果页面内容很多，有滚动条时，页面不会乱跳，用户体验更好。相当于执行了一段javascript空代码，地址不发生跳转。与这个相同<a href="”javascript:void(0);”"></a></li>
+<li>去掉li前面的小点用list-style-type: none;</li>
+<li>要定义局部变量必须加var。</li>
+<li>使li或span的外形变为圆形用border-radius: 50%; 添加圆角边框。</li>
+<li>textarea设置resize：none；可以防止用户改变文本框大小。</li>
+<li>想让盒子根据里面内容多少改变大小将盒子height改成auto。</li>
+<li>使按钮或者表单不可用this.disable=true；</li>
+<li>this 指向的是事件的调用者或者是函数的使用者。<br>a)    14. a&amp;&amp;b   如果a 为假 ，则返回 a ；如果a 为真 ，则返回 b 。<br>i.    a||b   如果 a 为假 ，则返回b ；如果 a 为真 ，则返回a 。 </li>
+<li>img {vertical-align: top; }  /<em>取消图片底部3像素距离</em>/</li>
+<li>一定要注意在javascript里修改style样式时候赋值都要用“”以字符串形式赋值。</li>
+<li>javascript修改style中的数值后都可以到行内数值样式上看到。</li>
+<li>使用webstorm新建javascript文件时候先把右下角的编码格式改为utf－8否则后面运行会出错。新建css文件也一样。</li>
+<li>如果在head里面引用javascript文件则需要考虑文件内函数是否在window.onload里面否则会产生因为网页未加载完造成javascript出错。</li>
+<li>表单中的input可以直接通过name属性获取到DOM对象，form.控件name</li>
+<li>创建字符串时若里带有标签的最好用单引号括起来避免和里面的双引号冲突。</li>
+<li>JS 页面跳转: window.location.href = ”<a href="http://www.itcast.cn”。" target="_blank" rel="external">http://www.itcast.cn”。</a>   </li>
+<li>要获取当前页面宽度用document.documentElement.clientWidth。</li>
+<li>获取当前页面相对滚动document.documentElement.scrollTop||document.body.scrollTop;<br>a)    //注意解决兼容性</li>
+<li>在文档头设置<html lang="zh-cn">的作用</html></li>
+<li>根据根据lang属性来设定不同语言的css样式，或者字体</li>
+<li>告诉搜索引擎做精确的识别</li>
+<li>让语法检查程序做语言识别</li>
+<li>帮助翻译工具做识别</li>
+<li>帮助网页阅读程序做识别等等<br>a)    26.input的type改为search时可以将回车当确认键。<br>b)    27.获取屏幕触摸用addEventListener（“touchstart”，function(event){}）在函数中用event.touches[0].clientY;来获取鼠标点击的Y坐标用touchmove来获取触摸离开时鼠标最后所在的坐标。<br>c)    28.使用var img=new Image(width，height );效果和cratelement的效果相同。用img.src添加图片。<br>d)    29．javascript 中没有块级作用域，即用大括号{}包含的。JavaScript是函数作用域。<br>e)    例如for（var i=0;i&lt;4;i++）中i存在于整个作用域中及整个function中，所以避免在全局范围内使用for循环同时声明变量，否则会造成全局命名范围的污染，ES6中使用let代替var在for中声明i变量可以使之只能在块级作用域中使用。let不同于var没有变量提升。</li>
+<li>字符串转换成JSON对象用全局的JSON函数 JSON.parse(string);</li>
+<li>可以利用instanceof来判断对象的构造函数。</li>
+<li>若函数中加return就不能当做构造函数来看，构造函数return的是一个对象。</li>
+<li>判断数据类型时常用typeof和call，在使用 typeof 运算符时采用引用类型存储值（NULL，数组，对象）会出现一个问题，无论引用的是什么类型的对象，它都返回 “object”。</li>
+<li>console.log(toString.call({})) //[object Object]               </li>
+<li>console.log(toString.call([])) //[object Array]<br>34.用window.addListener(“hashchange”,function(e){})来监听地址栏中#后的哈希值变化，利用window.location来得到地址对象。</li>
+<li>解析一个地址先创建一个a对象var aLink=document.creatElement(“a”)</li>
+<li>再给a标签对象href赋值为地址字符串，之后既可通过aLink.hash得到地址哈希值<br>a)    36.小技巧给一个数组不断添加内容可以arr[arr.length]=…;来给数组不断赋值。 </li>
+<li>从数组中删除元素也可以splice（元素索引，删除元素数目）。</li>
+<li>for循环数组或对象时若用（index in arry）作为条件index表示当前元素索引。</li>
+<li>可以使用外部链接的标签img（支持跨域但无法获取服务端数据）、iframe（可以接受数据单操作复杂）、link（在CSS处理阶段会报错）、script（可以获取服务器数据，被选做jsonp传送方式）。</li>
+<li>为了使代码易于维护采用开闭原则，对于后期会产生变化的量一定不能写死，以后需要通过修改来迭代。</li>
+<li>变化点封装，一般都把今后会变化的地址类的写在config函数里面，后面通过别名来使用。一定不要暴露在代码中。</li>
+<li>将一个对象利用“=”赋值给另一个对象时传递的是一个内存对象，若修改其中一个的属性则都会发生改动，想要避免源对象被篡改可以利用object.assign()方法或者object.creat()方法。</li>
+<li>js中函数对象是有长度的，它的长度是由参数的个数决定。(function (a, b, c, d) {}).length === 4。</li>
+<li>想要正确处理上传的文件，并接受到文件的内容，需要把表单的enctype属性设置为multipart/form-data,这是个适用于于BLOB（大型二进制文件）的MIME类型。</li>
+<li>想要将一个包含对象的数组以字符串的形式保存到文件中，需要循环遍历数组并用JSON对象的.stringify方法将对象转化为字符串形式，再进行保存。</li>
+<li>写静态网页可以使用gulp+browersync（yo webapp生成模板），编写动态网站用express+ejs+sass.<br>Sass监听文件夹：sass –watch sassFileDirectory:cssFileDirectory；<br>Sass监听单个文件：sass –watch style.scss:style.css；</li>
+<li>函数的柯里化（Currying）是把接受多个参数的函数变换成接受一个单一参数（最初函数的第一个参数）的函数，并且返回接受余下的参数而且返回结果的新函数的技术。增加了函数的适用性，但同时也降低了函数的适用范围。</li>
+<li>惰性载入表示函数执行的分支只会在函数第一次掉用的时候执行，在第一次调用过程中，该函数会被覆盖为另一个按照合适方式执行的函数，这样任何对原函数的调用就不用再经过执行的分支了。如函数功能是对应不同浏览器创建XMLHttpRquest当第一次执行时判断完浏览器类型并创建完成后及可以返回一个被修改过后的本函数，覆盖原来的函数，这样以后调用此函数时就不需要再判断浏览器类型，可以直接创建对应XMLHttpRquest。</li>
+<li>面向切面编程AOP主要实现的目的是针对业务处理过程中的切面进行提取，它所面对的是处理过程中的某个步骤或阶段，以获得逻辑过程中各部分之间低耦合性的隔离效果。比如最常见的就是日志记录了.</li>
+</ol>
+<pre><code>```
+// 计算模块calc_v2015.js
+(function(calculator，$) {
+  function convert(input) {return parseInt(input);}
+  calculator.add = function(a, b) {return convert(a) + convert(b);}
+  window.calculator = calculator;
+})(window.calculator || {},jquery);
+</code></pre><p>//自执行函数先判断window里面是否含有calculator没有的话传入空对象{}</p>
+<pre><code>// 新增需求calc_v2016.js
+(function(calculator,$) {
+  function convert(input) {return parseInt(input);}
+  // calculator 如果存在的话，我就是扩展，不存在我就是新加
+  calculator.remain = function(a, b) {return convert(a) % convert(b);}
+  window.calculator = calculator;
+})(window.calculator || {},jquery);
+</code></pre><p>//为了使代码高内聚低耦合不过度依赖第三方库,在自执行函数外给代码注入第三方的库。<br>    // 开闭原则，对新增开放，对修改关闭；<br>    ```</p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="pagination" role="pagination">
+    
+    <a class="pull-left" href="/2017/01/03/Angular1/" style="float: left;">
+        ← 
+    </a>
+    
+    
+    <a class="pull-right" href="/2017/01/03/node/">
+         →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+<div class="ds-thread" data-thread-key="2017/01/03/JavaScript/" data-title="" data-url="http://yoursite.com/2017/01/03/JavaScript/"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"duoshuo_name"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+	 || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By John Doe. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/mjczyt" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://www.facebook.com/ivan.tbs.3" title="Facebook" target="_blank"><i class="icon-facebook"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="http://weibo.com/2813973641/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+<!-- Initiate flexslider plugin -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+      $('.flexslider').flexslider({
+        animation: "fade",
+        prevText: "",
+        nextText: "",
+        directionNav: true
+      });
+    });
+</script>
+
+</body>
+</html>
